@@ -14,6 +14,7 @@ public class Truck extends Vehicle {
     // ── Getters / Setters ─────────────────────────────────────
     public double getTonnage() { return tonnage; }
 
+    // ── Override abstract methods ─────────────────────────────
     @Override
     public String getType() { return "Truck"; }
 

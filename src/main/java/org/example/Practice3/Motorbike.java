@@ -14,6 +14,7 @@ public class Motorbike extends Vehicle {
     // ── Getters / Setters ─────────────────────────────────────
     public double getCapacity() { return capacity; }
 
+    // ── Override abstract methods ─────────────────────────────
     @Override
     public String getType() { return "Motorbike"; }
 

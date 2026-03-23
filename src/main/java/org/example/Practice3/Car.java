@@ -17,6 +17,7 @@ public class Car extends Vehicle {
     public int    getNumSeats()   { return numSeats; }
     public String getEngineType() { return engineType; }
 
+    // ── Override abstract methods ─────────────────────────────
     @Override
     public String getType() { return "Car"; }
 
