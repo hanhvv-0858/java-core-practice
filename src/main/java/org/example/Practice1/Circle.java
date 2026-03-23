@@ -14,7 +14,6 @@ public class Circle  extends Shape {
     // Diện tích = π * r^2
     public double getArea() {
         return Math.PI * width * width; // width chính là radius
-        // hoặc: return 3.14 * width * width; nếu đề yêu cầu dùng 3.14
     }
 
     // Đường kính = 2 * radius

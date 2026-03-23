@@ -9,7 +9,7 @@ public class Practice3 {
     static final Map<Integer, Runnable> ACTIONS = new LinkedHashMap<>();
 
     public static void main(String[] args) {
-        addSampleData();
+        addSampleData(); // Thêm 1 số sample data để test
         setupActions(); // khởi tạo map các action
 
         int choice = -1;

@@ -32,8 +32,6 @@ public abstract class Vehicle {
     // ── Getters / Setters ─────────────────────────────────────
     public String       getVehicleNo()    { return vehicleNo; }
     public Manufacturer getManufacturer() { return manufacturer; }
-    public int          getYearMfg()      { return yearMfg; }
-    public String       getColor()        { return color; }
     public Owner        getOwner()        { return owner; }
 
     // Tên loại xe — subclass override
